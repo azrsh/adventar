@@ -1,0 +1,60 @@
+error /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/node-sass: Command failed.
+Exit code: 1
+Command: node scripts/build.js
+Arguments: 
+Directory: /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/node-sass
+Output:
+Building: /home/azarashi2931/.volta/tools/image/node/20.9.0/bin/node /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/node-gyp/bin/node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+gyp info it worked if it ends with ok
+gyp verb cli [
+gyp verb cli   '/home/azarashi2931/.volta/tools/image/node/20.9.0/bin/node',
+gyp verb cli   '/home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/node-gyp/bin/node-gyp.js',
+gyp verb cli   'rebuild',
+gyp verb cli   '--verbose',
+gyp verb cli   '--libsass_ext=',
+gyp verb cli   '--libsass_cflags=',
+gyp verb cli   '--libsass_ldflags=',
+gyp verb cli   '--libsass_library='
+gyp verb cli ]
+gyp info using node-gyp@3.8.0
+gyp info using node@20.9.0 | linux | x64
+gyp verb command rebuild []
+gyp verb command clean []
+gyp verb clean removing "build" directory
+gyp verb command configure []
+gyp verb check python checking for Python executable "python2" in the PATH
+gyp verb `which` failed Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (/home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/which/which.js:13:12)
+gyp verb `which` failed     at F (/home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/which/which.js:68:19)
+gyp verb `which` failed     at E (/home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/which/which.js:80:29)
+gyp verb `which` failed     at /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/which/which.js:89:16
+gyp verb `which` failed     at /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/isexe/index.js:42:5
+gyp verb `which` failed     at /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/isexe/mode.js:8:5
+gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:199:21)
+gyp verb `which` failed  python2 Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (/home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/which/which.js:13:12)
+gyp verb `which` failed     at F (/home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/which/which.js:68:19)
+gyp verb `which` failed     at E (/home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/which/which.js:80:29)
+gyp verb `which` failed     at /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/which/which.js:89:16
+gyp verb `which` failed     at /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/isexe/index.js:42:5
+gyp verb `which` failed     at /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/isexe/mode.js:8:5
+gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:199:21) {
+gyp verb `which` failed   code: 'ENOENT'
+gyp verb `which` failed }
+gyp verb check python checking for Python executable "python" in the PATH
+gyp verb `which` succeeded python /usr/bin/python
+gyp ERR! configure error 
+gyp ERR! stack Error: Command failed: /usr/bin/python -c import sys; print "%s.%s.%s" % sys.version_info[:3];
+gyp ERR! stack   File "<string>", line 1
+gyp ERR! stack     import sys; print "%s.%s.%s" % sys.version_info[:3];
+gyp ERR! stack                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gyp ERR! stack SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+gyp ERR! stack 
+gyp ERR! stack     at ChildProcess.exithandler (node:child_process:422:12)
+gyp ERR! stack     at ChildProcess.emit (node:events:514:28)
+gyp ERR! stack     at maybeClose (node:internal/child_process:1105:16)
+gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+gyp ERR! System Linux 6.5.7-arch1-1
+gyp ERR! command "/home/azarashi2931/.volta/tools/image/node/20.9.0/bin/node" "/home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/node-gyp/bin/node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+gyp ERR! cwd /home/azarashi2931/ghq/github.com/adventar/adventar/frontend/node_modules/node-sass
+gyp ERR! node -v v20.9.0
